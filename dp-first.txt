@@ -1,0 +1,16 @@
+Nome tabella: auto_usate
+id      -       int - PRIMARY KEY - AUTO_INCREMENT
+marca   -       stringa - VARCHAR(50) - NOT NULL
+modello -       stringa - VARCHAR(50) - NOT NULL
+anno_di_produezione    -       int - DATE - NOT NULL
+chilometraggio  -   int - NOT NULL
+prezzo  -       float - DECIMAL(10, 2) - NOT NULL
+colore  -       string - VARCHAR(20) - NOT NULL
+sedili       -      int - TINYINT - NOT NULL - DEFAULT
+tipo_carburante     -      string - VARCHAR(20) - NOT NULL
+descrizione     -    string - TEXT
+porte       -       int - TINYINT - NOT NULL - DEFAULT
+data_inserimento    -   date - DATE - NULL
+disponibile     -       boolean - NOT NULL - DEFAULT 
+condizioni_generali     -       string - VARCHAR(50) - NOT NULL,
+
